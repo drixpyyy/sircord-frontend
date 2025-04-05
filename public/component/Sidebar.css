@@ -1,0 +1,90 @@
+.sidebar {
+  width: 240px;
+  background-color: #2f3136;
+  display: flex;
+  flex-direction: column;
+  color: #8e9297;
+}
+
+.sidebar-header {
+  padding: 15px;
+  border-bottom: 1px solid #202225;
+  background-color: #2f3136;
+}
+
+.sidebar-header h2 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #292b2f;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #7289da;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.user-avatar.small {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.username {
+  font-weight: 500;
+  color: #dcddde;
+}
+
+.channels-section, .users-section {
+  padding: 15px;
+}
+
+.channels-section h3, .users-section h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.channel-list li, .user-list li {
+  padding: 6px 8px;
+  margin: 2px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.channel-list li:hover {
+  background-color: #36393f;
+  color: #dcddde;
+}
+
+.channel-list li.active {
+  background-color: #42464d;
+  color: white;
+}
+
+.user-list li {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-left: 10px;
+  color: #dcddde;
+}
