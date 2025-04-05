@@ -6,7 +6,7 @@ import Sidebar from './components/Sidebar';
 import ChatArea from './components/ChatArea';
 
 // For development, replace with your actual backend URL when deployed
-const BACKEND_URL = 'http://localhost:3001';
+const BACKEND_URL = 'https://sircord-backend.onrender.com/';
 
 function App() {
   const [socket, setSocket] = useState(null);
